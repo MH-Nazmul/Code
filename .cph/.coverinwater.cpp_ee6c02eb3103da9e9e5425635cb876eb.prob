@@ -1,0 +1,1 @@
+{"name":"Local: coverinwater","url":"g:\\My Drive\\CSE Faculty\\Skills\\GITHub\\Code\\coverinwater.cpp","tests":[{"id":1701009780269,"input":"5\n3\n...\n7\n##....#\n7\n..#.#..\n4\n####\n10\n#...#..#.#\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\My Drive\\CSE Faculty\\Skills\\GITHub\\Code\\coverinwater.cpp","group":"local","local":true}
