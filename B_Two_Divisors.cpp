@@ -3,24 +3,22 @@
                                                                              */
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
 #define all(x) x.begin(), x.end()
+using ll = long long;
+const int N = 1e5 + 10;
 
 void solve(void)
 {
-    int n, k;
-    cin >> n >> k;
-    int num = n;
-    for (int i = n; i > k + 1; i--)
-    {
-        cout << i << " ";
-    }
-    for (int i = 1; i <= k + 1; i++)
-    {
-        cout << i << " ";
-    }
-
-    cout << "\n";
+    ll a, b;
+    cin >> a >> b;
+        ll val = a * b;
+        ll gc = __gcd(a, b);
+        val/=gc;
+        if (val!=b)
+        cout << val << "\n";
+        else
+        cout<<val*(b/a)<<"\n";
+    
 }
 
 int main()

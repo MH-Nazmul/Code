@@ -54,8 +54,6 @@ void solve(void)
        }
        sum+=k*mx;
        cout<<sum<<endl;
-          
-     
 }
 
 int main()
